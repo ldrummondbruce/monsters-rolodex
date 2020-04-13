@@ -8,6 +8,6 @@ export const SearchBox = (props) => (
     // placeholder="search monsters..."
     // onChange={(e) => this.setState({ searchField: e.target.value })}
     placeholder={props.placeholder}
-    onChange={props.handleChange}
+    onChange={props.onSearchChange}
   />
 );
